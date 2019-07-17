@@ -140,3 +140,23 @@ if (johnTeamAverage > mikeTeamAverage && johnTeamAverage > maryTeamAverage) {
       "its a draw!"
   );
 }
+
+/****************************
+ * functions
+ */
+let calculateAge = birthYear => {
+  return 2018 - birthYear;
+};
+console.log(calculateAge(1998));
+
+const yearsUntilRetirement = (year, firstName) => {
+  let age = calculateAge(year);
+  let retirement = 65 - age;
+  if (retirement > 0) {
+    console.log(firstName + " retires in " + retirement + " years.");
+  } else {
+    console.log(firstName + " is already retired");
+  }
+};
+
+yearsUntilRetirement(1998, "john");
