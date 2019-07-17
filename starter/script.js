@@ -95,3 +95,16 @@ switch (job) {
   default:
     console, log(firstName + " does something else");
 }
+
+// truthy and falsy calues and euality operators
+
+// falsy values: undefined, null, 0 , '', nan
+// truthy values: not falsy values
+
+let height = 0;
+
+if (height || height === 0) {
+  console.log("variable is defined");
+} else {
+  console.log("variable is not defined");
+}
