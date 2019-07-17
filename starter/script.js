@@ -41,14 +41,24 @@ x = y = (2 + 5) * 4 - 6;
 console.log(x, y);
 
 // coding challenge
-let markMass = 200; //kg
-let johnMass = 175; //kg
-let markHeight = 2; //meters
-let johnHeight = 1.8; //meters
+// let markMass = 200; //kg
+// let johnMass = 175; //kg
+// let markHeight = 2; //meters
+// let johnHeight = 1.8; //meters
 
-let markBmi = markMass / (markHeight * markHeight);
-let johnBmi = johnMass / (johnHeight * johnHeight);
-console.log(markBmi, johnBmi);
-let highestBmi = markBmi > johnBmi;
+// let markBmi = markMass / (markHeight * markHeight);
+// let johnBmi = johnMass / (johnHeight * johnHeight);
+// console.log(markBmi, johnBmi);
+// let highestBmi = markBmi > johnBmi;
 
-console.log("is Mark's BMI higher than john's? " + highestBmi);
+// console.log("is Mark's BMI higher than john's? " + highestBmi);
+
+// if / else statements
+
+let civilStatus = "single";
+
+if (civilStatus === "single") {
+  console.log(firstName + " is not married");
+} else {
+  console.log(firstName + " is married");
+}
