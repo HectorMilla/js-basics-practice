@@ -108,3 +108,35 @@ if (height || height === 0) {
 } else {
   console.log("variable is not defined");
 }
+
+// coding challeng #2
+
+johnTeamAverage = (10 + 10 + 10) / 3;
+mikeTeamAverage = (10 + 10 + 10) / 3;
+maryTeamAverage = (10 + 10 + 10) / 3;
+
+if (johnTeamAverage > mikeTeamAverage && johnTeamAverage > maryTeamAverage) {
+  console.log(
+    "Johns team is the winner with an average score of " + johnTeamAverage
+  );
+} else if (
+  mikeTeamAverage > johnTeamAverage &&
+  mikeTeamAverage > maryTeamAverage
+) {
+  console.log(
+    "Mikes team is the winner with an average score of " + mikeTeamAverage
+  );
+} else if (
+  maryTeamAverage > johnTeamAverage &&
+  maryTeamAverage > mikeTeamAverage
+) {
+  console.log(
+    "Marys team is the winner with an average score of " + maryTeamAverage
+  );
+} else {
+  console.log(
+    "all teams have the same average score of " +
+      johnTeamAverage +
+      "its a draw!"
+  );
+}
