@@ -213,3 +213,25 @@ for (i = 0; i < bills.length; i++) {
   finalBill.push(tip + bills[i]);
 }
 console.log(tips, finalBill);
+
+/******** objects */
+
+let jane = new Object();
+jane.name = "jane";
+
+console.log(jane);
+
+/******* objects and methods */
+
+let person = {
+  firstName: "john",
+  lastName: "smith",
+  birthYear: "1990",
+  job: "teacher",
+  isMarried: false,
+  calcAge: function() {
+    this.age = 2019 - this.birthYear;
+  }
+};
+person.calcAge();
+console.log(person);
