@@ -160,3 +160,56 @@ const yearsUntilRetirement = (year, firstName) => {
 };
 
 yearsUntilRetirement(1998, "john");
+
+/********* function statements and expressions */
+//expression
+let whatDoYouDo = function(job) {};
+// statement
+function whatDoYouDo1(job) {}
+
+/****** Arrays */
+
+let names = ["john", "mark", "jane"];
+let years = new Array(1990, 1995, 1889);
+names.unshift("hect");
+console.log(names);
+
+let john = ["john", "teacher", 1990];
+john.push("smith");
+let query =
+  john.indexOf("designer") === -1
+    ? console.log("john is not a designer")
+    : console.log("john is a designer");
+console.log(query);
+
+/******** coding challenge #3 */
+let bills = [124, 48, 268];
+let tips = [];
+let finalBill = [];
+
+let tipCalc = bill => {
+  let tip;
+  if (bill < 50) {
+    tip = bill * 0.2;
+  } else if (bill >= 50 && bill <= 200) {
+    tip = bill * 0.15;
+  } else {
+    tip = bill * 0.1;
+  }
+  tips.push(tip);
+  finalBill.push(tip + bill);
+};
+
+for (i = 0; i < bills.length; i++) {
+  let tip;
+  if (bills[i] < 50) {
+    tip = bills[i] * 0.2;
+  } else if (bills[i] >= 50 && bills[i] <= 200) {
+    tip = bills[i] * 0.15;
+  } else {
+    tip = bills[i] * 0.1;
+  }
+  tips.push(tip);
+  finalBill.push(tip + bills[i]);
+}
+console.log(tips, finalBill);
