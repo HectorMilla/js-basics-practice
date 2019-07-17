@@ -55,10 +55,22 @@ console.log(x, y);
 
 // if / else statements
 
-let civilStatus = "single";
+// let civilStatus = "single";
 
-if (civilStatus === "single") {
-  console.log(firstName + " is not married");
+// if (civilStatus === "single") {
+//   console.log(firstName + " is not married");
+// } else {
+//   console.log(firstName + " is married");
+// }
+
+//boolean logic
+age = 16;
+if (age < 13) {
+  console.log(firstName + " is a boy");
+} else if (age >= 13 && age < 20) {
+  console.log(firstName + " is a teenager");
+} else if (age >= 20 && age < 30) {
+  console.log(firstName + " is a young man");
 } else {
-  console.log(firstName + " is married");
+  console.log(firstName + " is a man");
 }
