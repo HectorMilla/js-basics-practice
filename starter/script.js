@@ -74,3 +74,24 @@ if (age < 13) {
 } else {
   console.log(firstName + " is a man");
 }
+
+// the ternary Oprerator and switch statements
+
+age >= 18
+  ? console.log(firstName + " drinks beer.")
+  : console.log(firstName + " drinks juice.");
+
+let drink = age >= 18 ? "beer" : "juice";
+
+console.log(drink);
+
+switch (job) {
+  case "teacher":
+    console.log(firstName + " teaches kids how to code.");
+    break;
+  case "driver":
+    console, log(firstName + " drives an uber in lisbon");
+    break;
+  default:
+    console, log(firstName + " does something else");
+}
