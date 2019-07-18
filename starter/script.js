@@ -174,14 +174,6 @@ let years = new Array(1990, 1995, 1889);
 names.unshift("hect");
 console.log(names);
 
-let john = ["john", "teacher", 1990];
-john.push("smith");
-let query =
-  john.indexOf("designer") === -1
-    ? console.log("john is not a designer")
-    : console.log("john is a designer");
-console.log(query);
-
 /******** coding challenge #3 */
 let bills = [124, 48, 268];
 let tips = [];
@@ -235,3 +227,49 @@ let person = {
 };
 person.calcAge();
 console.log(person);
+
+/**** coding challenge # 4 */
+
+let mark = {
+  firstName: "Mark",
+  lastName: "Webster",
+  mass: "164",
+  height: "1.75",
+  bmiCalc: function() {
+    this.bmi = this.mass / (this.height * this.height);
+    return this.bmi;
+  }
+};
+mark.bmiCalc();
+console.log(mark.bmi);
+let john = {
+  firstName: "John",
+  lastName: "Snow",
+  mass: "164",
+  height: "1.75",
+  bmiCalc: function() {
+    this.bmi = this.mass / (this.height * this.height);
+    return this.bmi;
+  }
+};
+john.bmiCalc();
+console.log(john.bmi);
+
+mark.bmi > john.bmi
+  ? console.log(
+      mark.firstName + mark.lastName + " has the highest BMI of " + mark.bmi
+    )
+  : john.bmi > mark.bmi
+  ? console.log(
+      john.firstName + john.lastName + " has the highest BMI of " + john.bmi
+    )
+  : console.log(
+      "both " +
+        mark.firstName +
+        mark.lastName +
+        " and " +
+        john.firstName +
+        john.lastName +
+        " have the same BMI of " +
+        mark.bmi
+    );
