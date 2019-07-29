@@ -11,34 +11,34 @@
 // this is how you comment
 /* multi line comment*/
 // variable mtation and type coercion
-var age = 21;
-var firstName = "john";
+// var age = 21;
+// var firstName = "john";
 
-console.log(firstName + " " + age);
-var job, isMarried;
-job = "teacher";
-isMarried = false;
+// console.log(firstName + " " + age);
+// var job, isMarried;
+// job = "teacher";
+// isMarried = false;
 
-age = "twenty eight";
+// age = "twenty eight";
 // console.log(
 //   `hey my name is ${firstName}  I am ${age} years old. I work as a ${job}`
 // );
 
-let now = 2018;
-const yearJohn = 1989;
-let fullAge = 18;
+// let now = 2018;
+// const yearJohn = 1989;
+// let fullAge = 18;
 
-var isFullAge = now - yearJohn >= fullAge;
-console.log(isFullAge);
+// var isFullAge = now - yearJohn >= fullAge;
+// console.log(isFullAge);
 
-let ageJohn = now - yearJohn;
-let ageMark = 35;
-let average = (ageJohn + ageMark) / 2;
-console.log(average);
+// let ageJohn = now - yearJohn;
+// let ageMark = 35;
+// let average = (ageJohn + ageMark) / 2;
+// console.log(average);
 
-let x, y;
-x = y = (2 + 5) * 4 - 6;
-console.log(x, y);
+// let x, y;
+// x = y = (2 + 5) * 4 - 6;
+// console.log(x, y);
 
 // coding challenge
 // let markMass = 200; //kg
@@ -64,212 +64,306 @@ console.log(x, y);
 // }
 
 //boolean logic
-age = 16;
-if (age < 13) {
-  console.log(firstName + " is a boy");
-} else if (age >= 13 && age < 20) {
-  console.log(firstName + " is a teenager");
-} else if (age >= 20 && age < 30) {
-  console.log(firstName + " is a young man");
-} else {
-  console.log(firstName + " is a man");
-}
+// age = 16;
+// if (age < 13) {
+//   console.log(firstName + " is a boy");
+// } else if (age >= 13 && age < 20) {
+//   console.log(firstName + " is a teenager");
+// } else if (age >= 20 && age < 30) {
+//   console.log(firstName + " is a young man");
+// } else {
+//   console.log(firstName + " is a man");
+// }
 
-// the ternary Oprerator and switch statements
+// // the ternary Oprerator and switch statements
 
-age >= 18
-  ? console.log(firstName + " drinks beer.")
-  : console.log(firstName + " drinks juice.");
+// age >= 18
+//   ? console.log(firstName + " drinks beer.")
+//   : console.log(firstName + " drinks juice.");
 
-let drink = age >= 18 ? "beer" : "juice";
+// let drink = age >= 18 ? "beer" : "juice";
 
-console.log(drink);
+// console.log(drink);
 
-switch (job) {
-  case "teacher":
-    console.log(firstName + " teaches kids how to code.");
-    break;
-  case "driver":
-    console, log(firstName + " drives an uber in lisbon");
-    break;
-  default:
-    console, log(firstName + " does something else");
-}
+// switch (job) {
+//   case "teacher":
+//     console.log(firstName + " teaches kids how to code.");
+//     break;
+//   case "driver":
+//     console, log(firstName + " drives an uber in lisbon");
+//     break;
+//   default:
+//     console, log(firstName + " does something else");
+// }
 
 // truthy and falsy calues and euality operators
 
 // falsy values: undefined, null, 0 , '', nan
 // truthy values: not falsy values
 
-let height = 0;
+// let height = 0;
 
-if (height || height === 0) {
-  console.log("variable is defined");
-} else {
-  console.log("variable is not defined");
-}
+// if (height || height === 0) {
+//   console.log("variable is defined");
+// } else {
+//   console.log("variable is not defined");
+// }
 
-// coding challeng #2
+// // coding challeng #2
 
-johnTeamAverage = (10 + 10 + 10) / 3;
-mikeTeamAverage = (10 + 10 + 10) / 3;
-maryTeamAverage = (10 + 10 + 10) / 3;
+// johnTeamAverage = (10 + 10 + 10) / 3;
+// mikeTeamAverage = (10 + 10 + 10) / 3;
+// maryTeamAverage = (10 + 10 + 10) / 3;
 
-if (johnTeamAverage > mikeTeamAverage && johnTeamAverage > maryTeamAverage) {
-  console.log(
-    "Johns team is the winner with an average score of " + johnTeamAverage
-  );
-} else if (
-  mikeTeamAverage > johnTeamAverage &&
-  mikeTeamAverage > maryTeamAverage
-) {
-  console.log(
-    "Mikes team is the winner with an average score of " + mikeTeamAverage
-  );
-} else if (
-  maryTeamAverage > johnTeamAverage &&
-  maryTeamAverage > mikeTeamAverage
-) {
-  console.log(
-    "Marys team is the winner with an average score of " + maryTeamAverage
-  );
-} else {
-  console.log(
-    "all teams have the same average score of " +
-      johnTeamAverage +
-      "its a draw!"
-  );
-}
+// if (johnTeamAverage > mikeTeamAverage && johnTeamAverage > maryTeamAverage) {
+//   console.log(
+//     "Johns team is the winner with an average score of " + johnTeamAverage
+//   );
+// } else if (
+//   mikeTeamAverage > johnTeamAverage &&
+//   mikeTeamAverage > maryTeamAverage
+// ) {
+//   console.log(
+//     "Mikes team is the winner with an average score of " + mikeTeamAverage
+//   );
+// } else if (
+//   maryTeamAverage > johnTeamAverage &&
+//   maryTeamAverage > mikeTeamAverage
+// ) {
+//   console.log(
+//     "Marys team is the winner with an average score of " + maryTeamAverage
+//   );
+// } else {
+//   console.log(
+//     "all teams have the same average score of " +
+//       johnTeamAverage +
+//       "its a draw!"
+//   );
+// }
 
 /****************************
  * functions
  */
-let calculateAge = birthYear => {
-  return 2018 - birthYear;
-};
-console.log(calculateAge(1998));
+// let calculateAge = birthYear => {
+//   return 2018 - birthYear;
+// };
+// console.log(calculateAge(1998));
 
-const yearsUntilRetirement = (year, firstName) => {
-  let age = calculateAge(year);
-  let retirement = 65 - age;
-  if (retirement > 0) {
-    console.log(firstName + " retires in " + retirement + " years.");
-  } else {
-    console.log(firstName + " is already retired");
-  }
-};
+// const yearsUntilRetirement = (year, firstName) => {
+//   let age = calculateAge(year);
+//   let retirement = 65 - age;
+//   if (retirement > 0) {
+//     console.log(firstName + " retires in " + retirement + " years.");
+//   } else {
+//     console.log(firstName + " is already retired");
+//   }
+// };
 
-yearsUntilRetirement(1998, "john");
+// yearsUntilRetirement(1998, "john");
 
 /********* function statements and expressions */
 //expression
-let whatDoYouDo = function(job) {};
-// statement
-function whatDoYouDo1(job) {}
+// let whatDoYouDo = function(job) {};
+// // statement
+// function whatDoYouDo1(job) {}
 
-/****** Arrays */
+// /****** Arrays */
 
-let names = ["john", "mark", "jane"];
-let years = new Array(1990, 1995, 1889);
-names.unshift("hect");
-console.log(names);
+// let names = ["john", "mark", "jane"];
+// let years = new Array(1990, 1995, 1889);
+// names.unshift("hect");
+// console.log(names);
 
-/******** coding challenge #3 */
-let bills = [124, 48, 268];
-let tips = [];
-let finalBill = [];
+// /******** coding challenge #3 */
+// let bills = [124, 48, 268];
+// let tips = [];
+// let finalBill = [];
 
-let tipCalc = bill => {
-  let tip;
-  if (bill < 50) {
-    tip = bill * 0.2;
-  } else if (bill >= 50 && bill <= 200) {
-    tip = bill * 0.15;
-  } else {
-    tip = bill * 0.1;
-  }
-  tips.push(tip);
-  finalBill.push(tip + bill);
+// let tipCalc = bill => {
+//   let tip;
+//   if (bill < 50) {
+//     tip = bill * 0.2;
+//   } else if (bill >= 50 && bill <= 200) {
+//     tip = bill * 0.15;
+//   } else {
+//     tip = bill * 0.1;
+//   }
+//   tips.push(tip);
+//   finalBill.push(tip + bill);
+// };
+
+// for (i = 0; i < bills.length; i++) {
+//   let tip;
+//   if (bills[i] < 50) {
+//     tip = bills[i] * 0.2;
+//   } else if (bills[i] >= 50 && bills[i] <= 200) {
+//     tip = bills[i] * 0.15;
+//   } else {
+//     tip = bills[i] * 0.1;
+//   }
+//   tips.push(tip);
+//   finalBill.push(tip + bills[i]);
+// }
+// console.log(tips, finalBill);
+
+// /******** objects */
+
+// let jane = new Object();
+// jane.name = "jane";
+
+// console.log(jane);
+
+// /******* objects and methods */
+
+// let person = {
+//   firstName: "john",
+//   lastName: "smith",
+//   birthYear: "1990",
+//   job: "teacher",
+//   isMarried: false,
+//   calcAge: function() {
+//     this.age = 2019 - this.birthYear;
+//   }
+// };
+// person.calcAge();
+// console.log(person);
+
+// /**** coding challenge # 4 */
+
+// let mark = {
+//   firstName: "Mark",
+//   lastName: "Webster",
+//   mass: "164",
+//   height: "1.75",
+//   bmiCalc: function() {
+//     this.bmi = this.mass / (this.height * this.height);
+//     return this.bmi;
+//   }
+// };
+// mark.bmiCalc();
+// console.log(mark.bmi);
+// let john = {
+//   firstName: "John",
+//   lastName: "Snow",
+//   mass: "164",
+//   height: "1.75",
+//   bmiCalc: function() {
+//     this.bmi = this.mass / (this.height * this.height);
+//     return this.bmi;
+//   }
+// };
+// john.bmiCalc();
+// console.log(john.bmi);
+
+// mark.bmi > john.bmi
+//   ? console.log(
+//       mark.firstName + mark.lastName + " has the highest BMI of " + mark.bmi
+//     )
+//   : john.bmi > mark.bmi
+//   ? console.log(
+//       john.firstName + john.lastName + " has the highest BMI of " + john.bmi
+//     )
+//   : console.log(
+//       "both " +
+//         mark.firstName +
+//         mark.lastName +
+//         " and " +
+//         john.firstName +
+//         john.lastName +
+//         " have the same BMI of " +
+//         mark.bmi
+//     );
+
+// loops and iteration
+
+// for (i = 0; i < 4; i++) {
+//   console.log(i + 1);
+// }
+
+// let mike = ["mike", "smoth", 1990];
+
+// for (i = 0; i < mike.length; i++) {
+//   console.log(mike[i]);
+// }
+// let counter = 0;
+// while (counter < mike.length) {
+//   console.log(mike[counter]);
+//   counter++;
+// }
+
+// continue and break statements
+// let mike = ["mike", "smoth", 1990, false, "teacher"];
+
+// for (i = 0; i < mike.length; i++) {
+//   if (typeof mike[i] !== "string") continue;
+//   console.log(mike[i]);
+// }
+
+// for (i = 0; i < mike.length; i++) {
+//   if (typeof mike[i] !== "string") break;
+//   console.log(mike[i]);
+// }
+
+/***** CODING CHALLENGE #5 */
+let tipCalculator = {
+  bill: [124, 48, 268, 180, 42],
+  math: () => {
+    let bill = tipCalculator.bill;
+    for (i = 0; i < bill.length; i++) {
+      let tips = 0;
+      if (bill[i] < 50) {
+        tips += bill[i] * 0.2;
+      } else if (bill[i] >= 50 && bill[i] <= 200) {
+        tips += bill[i] * 0.15;
+      } else {
+        tips += bill[i] * 0.1;
+      }
+      tipCalculator.tips.push(tips);
+
+      tipCalculator.finalBill.push(bill[i] + tips);
+    }
+  },
+  tips: [],
+  finalBill: []
 };
 
-for (i = 0; i < bills.length; i++) {
-  let tip;
-  if (bills[i] < 50) {
-    tip = bills[i] * 0.2;
-  } else if (bills[i] >= 50 && bills[i] <= 200) {
-    tip = bills[i] * 0.15;
-  } else {
-    tip = bills[i] * 0.1;
+let markTipCalculator = {
+  bill: [77, 475, 110, 45],
+  math: () => {
+    let bill = markTipCalculator.bill;
+    for (i = 0; i < bill.length; i++) {
+      let tips = 0;
+      if (bill[i] < 100) {
+        tips += bill[i] * 0.2;
+      } else if (bill[i] >= 50 && bill[i] <= 300) {
+        tips += bill[i] * 0.1;
+      } else {
+        tips += bill[i] * 0.25;
+      }
+      markTipCalculator.tips.push(tips);
+
+      markTipCalculator.finalBill.push(bill[i] + tips);
+    }
+  },
+  tips: [],
+  finalBill: []
+};
+markTipCalculator.math();
+tipCalculator.math();
+
+let tipAverage = tips => {
+  let total = 0;
+  for (i = 0; i < tips.length; i++) {
+    total += tips[i];
   }
-  tips.push(tip);
-  finalBill.push(tip + bills[i]);
+  return total / tips.length;
+};
+tipCalculator.tipAverage = tipAverage(tipCalculator.tips);
+markTipCalculator.tipAverage = tipAverage(markTipCalculator.tips);
+console.log(tipCalculator.tipAverage, markTipCalculator.tipAverage);
+
+if (tipCalculator.tipAverage > markTipCalculator.tipAverage) {
+  console.log("John tips more");
+} else {
+  console.log("Mark tips more");
 }
-console.log(tips, finalBill);
-
-/******** objects */
-
-let jane = new Object();
-jane.name = "jane";
-
-console.log(jane);
-
-/******* objects and methods */
-
-let person = {
-  firstName: "john",
-  lastName: "smith",
-  birthYear: "1990",
-  job: "teacher",
-  isMarried: false,
-  calcAge: function() {
-    this.age = 2019 - this.birthYear;
-  }
-};
-person.calcAge();
-console.log(person);
-
-/**** coding challenge # 4 */
-
-let mark = {
-  firstName: "Mark",
-  lastName: "Webster",
-  mass: "164",
-  height: "1.75",
-  bmiCalc: function() {
-    this.bmi = this.mass / (this.height * this.height);
-    return this.bmi;
-  }
-};
-mark.bmiCalc();
-console.log(mark.bmi);
-let john = {
-  firstName: "John",
-  lastName: "Snow",
-  mass: "164",
-  height: "1.75",
-  bmiCalc: function() {
-    this.bmi = this.mass / (this.height * this.height);
-    return this.bmi;
-  }
-};
-john.bmiCalc();
-console.log(john.bmi);
-
-mark.bmi > john.bmi
-  ? console.log(
-      mark.firstName + mark.lastName + " has the highest BMI of " + mark.bmi
-    )
-  : john.bmi > mark.bmi
-  ? console.log(
-      john.firstName + john.lastName + " has the highest BMI of " + john.bmi
-    )
-  : console.log(
-      "both " +
-        mark.firstName +
-        mark.lastName +
-        " and " +
-        john.firstName +
-        john.lastName +
-        " have the same BMI of " +
-        mark.bmi
-    );
